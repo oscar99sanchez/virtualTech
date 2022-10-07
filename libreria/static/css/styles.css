@@ -299,14 +299,14 @@ img {
 }
 
 .modelo-x {
-    background-image: url(../img/modelo-x.svg);
+    background-image: url(../imagenes/modelo-x.svg);
 }
 .modelo-y {
-    background-image: url(../img/modelo-y.svg);
+    background-image: url(../imagenes/modelo-y.svg);
 }
 
 .modelo-z {
-    background-image: url(../img/modelo-z.svg);
+    background-image: url(../imagenes/modelo-z.svg);
     background-color: var(--primario);
     color: var(--blanco);
 }
@@ -332,15 +332,15 @@ img {
     background-size: 100%, 70rem;
 }
 .notavif.notwebp .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg) ;
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.jpg) ;
 }
 
 .webp .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.webp) ;
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.webp) ;
 }
 
 .avif .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.avif) ;
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.avif) ;
 }
 @media (min-width: 768px) { 
     .newsletter {
@@ -349,13 +349,13 @@ img {
         padding: 10rem 0;
     }
     .notavif.notwebp .newsletter {
-        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg) ;
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.jpg) ;
     }
     .webp .newsletter {
-        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.webp) ;
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.webp) ;
     }
     .avif .newsletter {
-        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.avif) ;
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../imagenes/newsletter.avif) ;
     }
 }
 @media (min-width: 2200px) { 
