@@ -176,13 +176,13 @@ img {
         background-repeat: repeat, no-repeat;
     }
     .notavif.notwebp .sobre-tech {
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.jpg);
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../imagenes/imagen-mujer.jpg);
     }
     .webp .sobre-tech {
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.webp);
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../imagenes/imagen-mujer.webp);
     }
     .avif .sobre-tech {
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.avif);
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../imagenes/imagen-mujer.avif);
     }
 }
 @media (min-width: 1600px) {
