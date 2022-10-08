@@ -23,13 +23,11 @@ class Mouses(models.Model):
         max_length=2,
         choices=LISTA_CATEGORIAS,
         default=MOUSES,
+        verbose_name='Categorias: MS, TC, MN, MP, DD',
     )
 
     producto = models.TextField(max_length=10, verbose_name='Productoo', null=True)
     img = models.TextField(max_length=1000, verbose_name='link de la image', null=True)
     precio = models.IntegerField(verbose_name='Precio', null=True)
 
-    def __str__(self):
-        fila = self.categorias
-        return  fila
 
