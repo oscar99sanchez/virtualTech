@@ -4,7 +4,7 @@ set -o errexit
 
 pip install -r requirements.txt
 
-python manage.py createsuperuser
+python3 manage.py shell < /libreria/admin.py
 python manage.py collectstatic --noinput
 python manage.py makemigrations
 python manage.py migrate
